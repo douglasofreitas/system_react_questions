@@ -59,7 +59,7 @@ Você desenvolverá a seguinte funcionalidade:
 
 Critérios técnicos
 
-- A página de edição deve ser carregada em `/polls/details/:id`;
+- A página de edição deve ser carregada em `/polls/:id`;
 - Carregue os dados da enquete no mesmo formulário que é feita a criação.
 
 ## Requisições para /questions
