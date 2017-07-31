@@ -38,7 +38,7 @@ O code review deve ter como objetivo garantir:
 
 Lembre-se que Juninho é inexperiente. Não basta só apontar o que não está bom, dê instruções claras do porquê não está bom e como resolver.
 
-Além disso, você foi alocado para trabalhar junto com o Juninho (programação em par) para criar uma nova funcionalidade descrita na seção **Novas Funcionalidades** (parte 2 do teste).
+Além disso, você foi alocado para trabalhar junto com o Juninho (programação em par) para criar uma nova funcionalidade descrita na seção **Nova Funcionalidade** (parte 2 do teste).
 
 A sua experiência garantirá êxito na fundação do projeto e ajudará no desenvolvimento profissional do Juninho.
 
@@ -51,9 +51,9 @@ Esse é o MVP do projeto de enquetes da UPX, ele foi desenvolvido com React por�
 - Listagem de enquetes;
 - Cadastro de novas enquetes;
 
-## Novas funcionalidades
+## Nova funcionalidade
 
-Você desenvolverá a seguinte funcionalidades:
+Você desenvolverá a seguinte funcionalidade:
 
 1. Como usuário do sistema, desejo ser capaz de editar uma enquete já cadastrada.
 
