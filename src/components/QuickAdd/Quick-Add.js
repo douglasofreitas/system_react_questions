@@ -8,7 +8,14 @@ class Quick_Add extends Component {
     this.state = {
       items: ['']
     };
+
     this.change = this.change.bind(this);
+  }
+
+  componentWillReceiveProps(nextProps){
+    if(nextProps.options){
+      this.setState({items: nextProps.options});
+    }
   }
 
   change (index, event) {

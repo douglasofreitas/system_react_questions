@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const component = ({question, options}) => (
+const component = ({questionId, question, options}) => (
   <div className='card poll-card'>
     <header className='card-header'>
       <span className='card-header-title'>{question}</span>
@@ -11,6 +12,11 @@ const component = ({question, options}) => (
           <li key={index}>{choice}</li>
         ))}
       </ul>
+      <br /><br /> 
+      <Link className='button is-primary button-add-poll'
+        to={'/polls/'+questionId}>
+        Edit Poll
+      </Link>
     </div>
   </div>
 );

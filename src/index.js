@@ -7,6 +7,7 @@ import './index.css';
 
 import App from './App';
 import InsertPoll from './components/polls/Insert';
+import UpdatePoll from './components/polls/Update';
 
 const history = createBrowserHistory()
 
@@ -15,6 +16,7 @@ ReactDOM.render(
     <div>
       <Route exact path='/' component={App} />
       <Route exact path='/polls/insert' component={InsertPoll} />
+      <Route exact path='/polls/:id(\d+)' component={UpdatePoll} />
     </div>
   </Router>,
   document.getElementById('root')

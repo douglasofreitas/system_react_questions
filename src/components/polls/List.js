@@ -60,7 +60,8 @@ class PollsList extends Component {
           <div key={index} className='column is-4'>
             <PollCard key={index}
               question={poll.question}
-              options={poll.options} />
+              options={poll.options}
+              questionId={poll.id} />
           </div>
         ))}
       </div>
